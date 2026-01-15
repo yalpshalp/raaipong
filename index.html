@@ -2,8 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<meta name="theme-color" content="#000000">
+
 <title>Raaipong | Smart Future</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
 <style>
 /* ================= ROOT ================= */
@@ -41,19 +47,13 @@ body {
     left: 20px;
     font-size: 22px;
     font-weight: 600;
-    color: white;
     z-index: 1000;
     pointer-events: none;
+    color: white;
 }
 
-/* If page background is light (non-home pages) */
 body:not(.dark) .top-brand {
     color: #111;
-}
-
-/* On home (dark background) */
-#home ~ .top-brand {
-    color: white;
 }
 
 /* ===== SIDEBAR ===== */
